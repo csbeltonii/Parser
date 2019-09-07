@@ -1,0 +1,13 @@
+// ACCEPT
+
+void main(void)
+{
+   int x;
+   while (b != 3)
+   {  
+      x=q+2; 
+   }
+
+   if (y >= 69.2) x = 9;
+
+}

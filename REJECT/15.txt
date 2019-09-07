@@ -1,0 +1,9 @@
+// REJECT
+
+void main(void)
+{
+float b;
+b = 1.3E-7 + 13.7;
+int x[100];
+x[10] = 86 * ( a / ( 12 + x[0+2*b[3]] ) );
+}

@@ -1,0 +1,32 @@
+// ACCEPT
+
+/*  !hmm E
+/* comment */*/
+
+// peepee
+
+
+void function(int var)
+{
+    var = var * 26;
+    var = 0.6E-10;
+}
+
+
+int main(void)
+{
+   
+   float x; // PooPoo
+   if (x != 0)
+   {
+       int y;
+       while (y < 100)
+       {
+           y = y + 1;
+           function();
+       }
+   }
+   else function();
+
+return 0;
+}

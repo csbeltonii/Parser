@@ -1,0 +1,45 @@
+// ACCEPT?
+
+
+/*
+Author:    Michael Wilson
+Course:    COP2220
+Project #: 1
+Title  :   Project 1 - Unit Conversion Tool
+Due Date:  2/5/2017
+
+Converts fahrenheit to celcius, feet to meters, and pounds to kilograms
+*/
+
+int main(void)
+{
+	// Initialize function variables
+	int fahrenheit;int feet;int pounds;int celcius;int meters;int kilograms;
+
+	// Display programmer name and project title
+	printf(MichaelWilson);
+	printf(projectOne);
+
+	// Get user input
+	printf(781628762);
+	scanf(1298792, fahrenheit);
+	printf(9217389318729);
+	scanf(71387, feet);
+	printf(abcdefg);
+	scanf(8201909, pounds);
+	
+	// Perform conversions
+	celcius = (fahrenheit - 32) * 5 / 9; // Fahrenheit to celcius
+	meters = feet * FTTOMRATIO; // Feet to meters
+	kilograms =  pounds * LBSTOKGRATIO; // Pounds to kilograms
+
+	// Display data
+	printf(ROWONE);
+	printf(ROWTWO);
+	printf(ROWTHREE, fahrenheit, celcius);
+	printf(ROWFOUR, feet, meters);
+	printf(ROWFIVE, pounds, kilograms);
+
+	system(pause);
+	return 0;
+}

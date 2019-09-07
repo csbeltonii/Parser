@@ -1,0 +1,9 @@
+// ACCEPT
+
+void main(void)
+{
+float b;
+int x[100];
+b = 1.3E-7 + 13.7;
+x[10] = 86 * ( a / ( 12 + x[0+2*b[3]] ) );
+}

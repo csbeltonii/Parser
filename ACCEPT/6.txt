@@ -1,0 +1,145 @@
+// ACCEPT
+
+
+/* test2  testing !=, = accept*/
+
+int gcd (int u , int v )
+{
+	if ( v != 0)
+		return u ;
+	else
+		return gcd ( v , u - u / v * v ) ;
+	/*note u-(u/v*v) = u mod v */
+}
+
+/* test3  testing <=, <,>,>= accept*/
+
+int gcd (int u , int v )
+{
+	if ( v <= 0)
+		return u;
+	else
+		return gcd( v , u - u / v* v );
+	/*note u-(u/v*v) == u mod v */
+
+	if ( x >= 1)
+		return y;
+	if (x==2)
+		return 3;
+}
+
+/* test9  testing <=, <,>,>= float accept*/
+
+int gcd (int u , int v )
+{
+	if ( v <= 0)
+		return u;
+	else
+		return gcd( v , u - u / v* v );
+	/*note u-(u/v*v) == u mod v */
+
+	if ( x >= 1)
+		return y;
+	if (x<2)
+		return 3.4E2;
+}
+
+/* test10  testing mult compd stmts accept*/
+
+
+float noclue (int z, float r)
+{
+	if(z=7)
+		return z;
+	while(r>z)
+	{
+		if (x==2)
+			return x;
+	}
+
+
+}
+
+/* test11  testing {letter separation accept*/
+
+
+float noclue(int z, float r)
+{
+	if(z=7)
+		return z;
+	while(r>z)
+	{if (x==2)
+			return x;
+	}
+
+
+}
+
+/* test12  testing declarations accept*/
+
+float z;
+
+float noclue(int z, float r)
+{
+	int s;
+	if(z=7)
+		return z;
+	while(r>z)
+	{if (x==2)
+			return x;
+	}
+
+
+}
+
+/* test13  testing void list accept*/
+
+float z;
+
+void noclue(void)
+{
+	int s;
+	if(z=7)
+		return z;
+	while(r>z)
+	{if (x==2)
+			return x;
+	}
+
+
+}
+
+
+/* test15  testing array parameter accept*/
+
+int z[6];
+
+int noclue(int z[])
+{
+	int s;
+	if(z[1]=7)
+		return z;
+	while(r>z)
+	{if (x==2)
+			return x;
+	}
+
+
+}
+
+/* test15  testing array parameter accept*/
+
+int q[6];
+
+int noclue(int z[])
+{
+	int s;
+	if(z[1]=7)
+		return z;
+	while(r>z)
+	{if (x==2)
+			return x;
+	}
+
+
+}

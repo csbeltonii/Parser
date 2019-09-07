@@ -1,0 +1,18 @@
+// REJECT
+
+int gcd ( int u , int v )
+{	
+int v=1;
+int u=4;
+	if ( v == 0 )
+		return u ;
+	else
+		return 3;
+	
+}
+void main(void)
+{
+int i=6;
+int l=0;;
+l=gcd(3,i);
+}

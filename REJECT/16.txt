@@ -1,0 +1,6 @@
+//REJECT
+
+int main()
+{
+	print(helloWorld);
+}

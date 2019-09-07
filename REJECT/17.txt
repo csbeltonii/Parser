@@ -1,0 +1,11 @@
+// REJECT
+
+
+int main(void)
+{
+	float n;
+	
+	void function(int x, float z) { }
+	
+	return 0;
+}
